@@ -1,5 +1,9 @@
 .sidebarOption{
     display: flex;
-    padding: 10px;
     align-items: center;
+    cursor: pointer;
+}
+
+.sidebarOption > .MuiSvgIcon-root{
+    padding: 20px;
 }
