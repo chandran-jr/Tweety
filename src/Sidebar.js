@@ -23,10 +23,10 @@ function Sidebar() {
             <SidebarOption Icon={SearchIcon} title="Explore"/>
             <SidebarOption Icon={NotificationsNoneIcon} title="Notifications"/>
             <SidebarOption Icon={MailOutlineIcon} title="Messages"/>
-            <SidebarOption Icon={BookmarkBorderIcon} title="Explore"/>
-            <SidebarOption Icon={ListAltIcon} title="Explore"/>
-            <SidebarOption Icon={PermIdentityIcon} title="Explore"/>
-            <SidebarOption Icon={MoreHorizIcon} title="Explore"/>
+            <SidebarOption Icon={BookmarkBorderIcon} title="Bookmarks"/>
+            <SidebarOption Icon={ListAltIcon} title="Lists"/>
+            <SidebarOption Icon={PermIdentityIcon} title="Profile"/>
+            <SidebarOption Icon={MoreHorizIcon} title="More"/>
 
             
         </div>
