@@ -8,3 +8,10 @@
     height: 50px !important;
     margin-top: 20px !important;
 }
+
+.sidebar__twitterIcon{
+    color: var(--twitter-color) !important;
+    margin: 20px;
+    font-size: 30px !important;
+    cursor: pointer;
+}
