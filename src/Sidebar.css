@@ -17,5 +17,9 @@
 }
 
 .sidebar{
-    flex: 0.2;
+    flex: 0.25;
+    min-width: 250px;
+    border-right: 1px solid var(--twitter-background);
+    padding-left: 15px;
+    padding-right: 15px;
 }
