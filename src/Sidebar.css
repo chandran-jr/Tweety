@@ -2,7 +2,7 @@
     background-color: var(--twitter-color) !important;
     border: none !important;
     color: white !important;
-    font-weight: 900 !important;
+    font-weight: 600 !important;
     text-transform: inherit !important;
     border-radius: 30px !important;
     height: 50px !important;
@@ -17,7 +17,7 @@
 }
 
 .sidebar{
-    flex: 0.25;
+    flex: 0.2;
     min-width: 250px;
     border-right: 1px solid var(--twitter-background);
     padding-left: 12px;
