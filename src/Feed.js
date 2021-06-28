@@ -4,7 +4,10 @@ import './Feed.css';
 function Feed() {
     return (
         <div className="feed">
-            <h1>Header</h1>
+
+            <div className="feed__header">
+            <h1>Home</h1>
+            </div>
         </div>
     )
 }
