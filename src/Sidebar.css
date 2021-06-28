@@ -1,3 +1,6 @@
-*{
-    
+.sidebar__TweetButton{
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight: 900 !important;
 }
