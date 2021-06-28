@@ -11,7 +11,9 @@
     background-color: white;
     z-index: 100;
     border: 1px solid var(--twitter-background);
-    padding: 15px 20px;
+    padding: 10px 10px;
     font-size: 14px;
     color: var(--twitter-color);
+    display: grid;
+    place-items: center;
 }
