@@ -7,3 +7,13 @@
 .sidebarOption > .MuiSvgIcon-root{
     padding: 20px;
 }
+
+.sidebarOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOption:hover{
+    background-color: #e8f5fe;
+}
