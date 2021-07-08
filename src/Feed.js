@@ -2,6 +2,7 @@ import React from 'react';
 import './Feed.css';
 import TweetBox from './TweetBox';
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
+import Post from './Post';
 
 function Feed() {
     return (
@@ -13,6 +14,8 @@ function Feed() {
             </div>
 
             <TweetBox />
+
+            <Post/>
 
         </div>
     )

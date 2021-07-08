@@ -19,7 +19,7 @@
 .sidebar{
     flex: 0.2;
     min-width: 250px;
-    border-right: 1px solid var(--twitter-background);
+    border-right: 0.5px solid rgb(238, 236, 236);
     padding-left: 12px;
     padding-right: 12px;
 }

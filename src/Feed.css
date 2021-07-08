@@ -1,6 +1,6 @@
 .feed{
     flex: 0.55;
-    border-right: 1px solid var(--twitter-background);
+    border-right: 0.5px solid rgb(238, 236, 236);
     min-width: fit-content;
     overflow-y: scroll;
 }
@@ -14,12 +14,12 @@
     top: 0;
     background-color: white;
     z-index: 100;
-    border: 1px solid var(--twitter-background);
+    border: 0.5px solid rgb(238, 236, 236);
     padding: 10px 10px;
     font-size: 10px;
     color: var(--twitter-color);
     display: flex;
-    place-items: start;
+    place-items: flex-start;
 }
 .feed__sparkle{
     margin-left: auto;
