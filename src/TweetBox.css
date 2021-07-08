@@ -33,3 +33,19 @@
     margin-top: 20px !important;
     margin-left: auto !important;
 }
+
+.tweetBox__icons {
+    margin-left: 80px;
+}
+
+.tweetBox__icon {
+    color: var(--twitter-color) !important;
+    padding: 7px !important;
+    cursor: pointer;
+}
+
+.tweetBox__icon:hover {
+    background-color: #e8f5fe;
+    border-radius: 30px !important;
+    transition: color 150ms ease-out;
+}
