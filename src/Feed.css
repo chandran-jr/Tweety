@@ -5,6 +5,10 @@
     overflow-y: scroll;
 }
 
+.feed::-webkit-scrollbar{
+    display: none;
+}
+
 .feed__header{
     position: sticky;
     top: 0;
