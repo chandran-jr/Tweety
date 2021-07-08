@@ -1,7 +1,7 @@
 import React from 'react';
 import './Post.css';
 
-function Post() {
+function Post({displayName,userName,text,avatar}) {
     return (
         <div className="post">
             
