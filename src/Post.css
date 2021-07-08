@@ -1,3 +1,24 @@
-*{
-    
+.post{
+    border-top: 0.5px solid rgb(238, 236, 236);
+    border-bottom: 0.5px solid rgb(238, 236, 236);
+    cursor: pointer;
+    display: flex;
+}
+
+.post:hover{
+    background-color: whitesmoke;
+    transition: color 150ms ease-out;
+}
+
+.post__avatar{
+    margin: 18px;
+}
+
+.post__header {
+    display: flex;
+    margin-top: 18px;
+}
+
+.post__verified {
+    color: var(--twitter-color);
 }
