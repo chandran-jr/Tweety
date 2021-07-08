@@ -1,6 +1,6 @@
 .tweetBox{
     padding-bottom: 10px;
-    border-bottom: 8px solid var(--twitter-background);
+    border-bottom: 8px solid rgb(239, 243, 244);
     padding-right: 10px;
 }
 
