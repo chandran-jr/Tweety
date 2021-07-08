@@ -33,6 +33,10 @@
     height: 40px !important;
 }
 
+.tweetBox__Button:hover {
+    background-color: rgb(5, 138, 221) !important;
+}
+
 .tweetBox__icons {
     margin-left: 80px;
     display: flex;
