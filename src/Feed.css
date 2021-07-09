@@ -3,6 +3,7 @@
     border-right: 0.5px solid rgb(238, 236, 236);
     min-width: fit-content;
     overflow-y: scroll;
+    margin-bottom: 20px;
 }
 
 .feed::-webkit-scrollbar{
@@ -10,10 +11,7 @@
 }
 
 .feed__header{
-    position: sticky;
-    top: 0;
     background-color: white;
-    z-index: 100;
     border: 0.5px solid rgb(238, 236, 236);
     padding: 10px 10px;
     font-size: 10px;
@@ -23,4 +21,11 @@
 }
 .feed__sparkle{
     margin-left: auto;
+}
+
+.feed__sticky{
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 100;
 }

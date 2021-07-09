@@ -8,13 +8,24 @@ function Feed() {
     return (
         <div className="feed">
 
+        <div className="feed__sticky">
+
             <div className="feed__header">
             <h1>Home</h1>
             <StarBorderOutlinedIcon className="feed__sparkle"/>
             </div>
 
             <TweetBox />
+            
+            </div>
 
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
+            <Post/>
             <Post/>
 
         </div>
