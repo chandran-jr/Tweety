@@ -51,7 +51,7 @@
 .tweetBox__icon:hover {
     background-color: #e8f5fe;
     border-radius: 30px !important;
-    transition: color 150ms ease-out;
+    transition: background-color 150ms ease-in-out;
 }
 
 .tweetBox__ButtonDiv {
