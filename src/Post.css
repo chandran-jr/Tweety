@@ -21,4 +21,19 @@
 
 .post__verified {
     color: var(--twitter-color);
+    margin-left: 5px;
+}
+
+.post__header > h4 {
+    color: rgb(83, 100, 113);
+    font-weight: 100;
+    margin-left: 3px;
+}
+
+.post__header > h3{
+    font-size: 16px;
+}
+
+.post__verified {
+    font-size: 20px !important;
 }
