@@ -2,6 +2,11 @@ import React from 'react';
 import './Post.css';
 import {Avatar} from '@material-ui/core';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import ChatBubbleOutlineOutlinedIcon from '@material-ui/icons/ChatBubbleOutlineOutlined';
+import RepeatRoundedIcon from '@material-ui/icons/RepeatRounded';
+import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
+import CloudUploadOutlinedIcon from '@material-ui/icons/CloudUploadOutlined';
+import AssessmentOutlinedIcon from '@material-ui/icons/AssessmentOutlined';
 
 function Post({displayName,userName,verified,text,avatar}) {
     return (
@@ -19,13 +24,18 @@ function Post({displayName,userName,verified,text,avatar}) {
                     <h4>@GovindChandran</h4>
                 </div>
 
-                <div className="post__text">
+            <div className="post__text">
                     <p>I'm Govind, the creator of Tweety, let's goo!</p>
-                </div>
+
+                    <div className="post__footer">
+                        <ChatBubbleOutlineOutlinedIcon className="post__footerIcon"/>
+                        <RepeatRoundedIcon className="post__footerIcon"/>
+                        <FavoriteBorderRoundedIcon className="post__footerIcon"/>
+                        <CloudUploadOutlinedIcon className="post__footerIcon"/>
+                        <AssessmentOutlinedIcon className="post__footerIcon"/>
+                    </div>
 
             </div>
-
-            <div className="post__footer">
 
             </div>
         </div>

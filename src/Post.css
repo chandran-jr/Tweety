@@ -41,3 +41,21 @@
 .post__text {
     margin-top: 6px;
 }
+
+.post__footer{
+    margin-top: 12px;
+}
+
+.post__footerIcon {
+    color: var(--twitter-color) !important;
+    margin-right: 50px;
+    padding: 12px !important;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.post__footerIcon:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px !important;
+    transition: color 150ms ease-out;
+}
