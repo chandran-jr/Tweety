@@ -5,7 +5,7 @@ import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import ChatBubbleOutlineOutlinedIcon from '@material-ui/icons/ChatBubbleOutlineOutlined';
 import RepeatRoundedIcon from '@material-ui/icons/RepeatRounded';
 import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded';
-import CloudUploadOutlinedIcon from '@material-ui/icons/CloudUploadOutlined';
+import PublishIcon from '@material-ui/icons/Publish';
 import AssessmentOutlinedIcon from '@material-ui/icons/AssessmentOutlined';
 
 function Post({displayName,userName,verified,text,avatar}) {
@@ -31,7 +31,7 @@ function Post({displayName,userName,verified,text,avatar}) {
                         <ChatBubbleOutlineOutlinedIcon className="post__footerIcon"/>
                         <RepeatRoundedIcon className="post__footerIcon"/>
                         <FavoriteBorderRoundedIcon className="post__footerIcon"/>
-                        <CloudUploadOutlinedIcon className="post__footerIcon"/>
+                        <PublishIcon className="post__footerIcon"/>
                         <AssessmentOutlinedIcon className="post__footerIcon"/>
                     </div>
 

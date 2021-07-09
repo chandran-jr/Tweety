@@ -7,7 +7,7 @@
 
 .post:hover{
     background-color: whitesmoke;
-    transition: color 150ms ease-out;
+    transition: background-color 250ms ease-in-out;
 }
 
 .post__avatar{
@@ -48,7 +48,7 @@
 
 .post__footerIcon {
     color: var(--twitter-color) !important;
-    margin-right: 50px;
+    margin-right: 30px;
     padding: 12px !important;
     cursor: pointer;
     font-size: 20px !important;
@@ -57,5 +57,5 @@
 .post__footerIcon:hover{
     background-color: #e8f5fe;
     border-radius: 30px !important;
-    transition: color 150ms ease-out;
+    transition: background-color 150ms ease-in-out;
 }
