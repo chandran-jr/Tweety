@@ -37,3 +37,7 @@
 .post__verified {
     font-size: 20px !important;
 }
+
+.post__text {
+    margin-top: 6px;
+}

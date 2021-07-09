@@ -14,15 +14,15 @@ function Post({displayName,userName,verified,text,avatar}) {
             <div className="post__body">
 
                 <div className="post__header">
-                    <h3 className="post__headerUsername">Govind B Chandran</h3>
+                    <h3>Govind B Chandran</h3>
                     <CheckCircleIcon className="post__verified"/>
                     <h4>@GovindChandran</h4>
                 </div>
 
                 <div className="post__text">
-                    <p>I'm Govind, The creator of Tweety, let's goo!</p>
+                    <p>I'm Govind, the creator of Tweety, let's goo!</p>
                 </div>
-                
+
             </div>
 
             <div className="post__footer">
