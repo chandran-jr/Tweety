@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './TweetBox.css';
 import {Button, Avatar} from '@material-ui/core';
 import ImageOutlinedIcon from '@material-ui/icons/ImageOutlined';
@@ -6,14 +6,39 @@ import GifIcon from '@material-ui/icons/Gif';
 import PollOutlinedIcon from '@material-ui/icons/PollOutlined';
 import SentimentSatisfiedOutlinedIcon from '@material-ui/icons/SentimentSatisfiedOutlined';
 import EventOutlinedIcon from '@material-ui/icons/EventOutlined';
+import firebase from 'firebase';
+import db from './firebase';
 
 function TweetBox() {
+
+    const [tweet,setTweet] = useState("");
+    const [name,setName] = useState("");
+    const [user,setUser] = useState("");
+
+
+    const sendTweet = (e) => {
+        e.preventDefault();
+        db.collection('posts').add({
+            displayName: name,
+            userName: user,
+            verified: false,
+            text: tweet,
+            avatar: "https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg",
+            timeStamp: firebase.firestore.FieldValue.serverTimestamp(),
+        });
+        setTweet("");
+        setName("");
+        setUser("");
+    }
+
     return (
         <div className="tweetBox">
             <form>
                 <div className="tweetBox__input">
-                    <Avatar src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-dsc/avatars/govind_chandran.jpg"/>
-                    <input placeholder="What's happening?" type="text"/>
+                    <Avatar src="https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg"/>
+                    <input required onChange={(e) => setTweet(e.target.value)} value={tweet} placeholder="What's happening?" type="text"/>
+                    <input required onChange={(e) => setName(e.target.value)} value={name} placeholder="Enter your name" type="text"/>
+                    <input required onChange={(e) => setUser(e.target.value)} value={user} placeholder="Enter your username " type="text"/>
                 </div>
 
                 <div className="tweetBox__icons">
@@ -24,9 +49,9 @@ function TweetBox() {
                     <EventOutlinedIcon className="tweetBox__icon"/>
 
                     <div className="tweetBox__ButtonDiv"> 
-                    <Button className="tweetBox__Button">Tweet</Button>
+                    <Button type="submit" onClick={sendTweet} className="tweetBox__Button">Tweet</Button>
                     </div>   
-                    
+
                 </div>
             </form>
         </div>

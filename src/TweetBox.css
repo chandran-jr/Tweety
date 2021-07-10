@@ -18,9 +18,10 @@
 .tweetBox__input > input {
     flex: 1;
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 19px;
     border: none;
     outline: none;
+    width: 7px;
 }
 
 .tweetBox__Button {
