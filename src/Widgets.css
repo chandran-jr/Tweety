@@ -23,9 +23,6 @@
     margin-right: 16px !important;
 }
 
-.MuiSvgIcon-root {
-    color: var(--twitter-color) !important;
-}
 
 .widgets__widgetContainer{
     height: 70%;
@@ -34,4 +31,9 @@
     margin-left: 10%;
     border: 1px solid var(--twitter-color) !important;
     border-radius: 30px;
+}
+
+.widgets__widgetContainer > h2 {
+    padding: 15px;
+    font-size: 20px;
 }
