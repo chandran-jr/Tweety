@@ -17,7 +17,7 @@ function Widgets() {
             <div className="widgets__widgetNews">
                 <h4>Technology . Huge News</h4>
                 <h3>Chandran creates Tweety</h3>
-                <p>Does absolutely nothing..again!!</p>
+                <p>Does absolutely nothing.Again!!</p>
             </div>
             <div className="widgets__widgetNews">
                 <h4>Sports . Cricket</h4>
@@ -25,20 +25,21 @@ function Widgets() {
                 <p>They beat India in a rain spoiled match</p>
             </div>
             <div className="widgets__widgetNews">
-                <h4>Technology . Huge News</h4>
-                <h3>Chandran creates Tweety</h3>
-                <p>Does absolutely nothing again!!</p>
+                <h4>Finance . News</h4>
+                <h3>El Salvador accepting BTC</h3>
+                <p>BTC may go upto $100k</p>
             </div>
             <div className="widgets__widgetNews">
-                <h4>Technology . Huge News</h4>
-                <h3>Chandran creates Tweety</h3>
-                <p>Does absolutely nothing again!!</p>
+                <h4>Crypto . News</h4>
+                <h3>Scammers banned on TikTok</h3>
+                <p>Crypto scammers are banned on it</p>
             </div>
             <div className="widgets__widgetNews">
-                <h4>Technology . Huge News</h4>
-                <h3>Chandran creates Tweety</h3>
-                <p>Does absolutely nothing again!!</p>
+                <h4>YouTube . Channel  News</h4>
+                <h3>DevBees growing popular</h3>
+                <p>The Flutter-React channel blows up!</p>
             </div>
+            <h4 className="widgets__widgetShow">Show More</h4>
         </div>
 
         </div>

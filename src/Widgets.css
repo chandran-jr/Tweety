@@ -70,3 +70,9 @@
 .widgets__widgetContainer > h2 {
     color: var(--twitter-color);
 }
+
+.widgets__widgetShow{
+    color: var(--twitter-color);
+    margin-top: 10px;
+    margin-left: 16px;
+}
