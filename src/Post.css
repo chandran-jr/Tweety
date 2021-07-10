@@ -61,3 +61,31 @@
     border-radius: 30px !important;
     transition: background-color 150ms ease-in-out;
 }
+
+.post__footerLike{
+    color: #E02E66 !important;
+    margin-right: 30px;
+    padding: 12px !important;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.post__footerLike:hover{
+    background-color: #F5E1E7;
+    border-radius: 30px !important;
+    transition: background-color 150ms ease-in-out;
+}
+
+.post__footerReTweet{
+    color: #2FC473 !important;
+    margin-right: 30px;
+    padding: 12px !important;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+
+.post__footerReTweet:hover{
+    background-color: #E0F2E8;
+    border-radius: 30px !important;
+    transition: background-color 150ms ease-in-out;
+}

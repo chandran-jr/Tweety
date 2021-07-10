@@ -29,8 +29,8 @@ function Post({displayName,userName,verified,text,avatar}) {
 
                     <div className="post__footer">
                         <ChatBubbleOutlineOutlinedIcon className="post__footerIcon"/>
-                        <RepeatRoundedIcon className="post__footerIcon"/>
-                        <FavoriteBorderRoundedIcon className="post__footerIcon"/>
+                        <RepeatRoundedIcon className="post__footerReTweet"/>
+                        <FavoriteBorderRoundedIcon className="post__footerLike"/>
                         <PublishIcon className="post__footerIcon"/>
                         <AssessmentOutlinedIcon className="post__footerIcon"/>
                     </div>
