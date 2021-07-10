@@ -28,8 +28,10 @@
 }
 
 .widgets__widgetContainer{
-    background-color: var(--twitter-background);
-    height: 60%;
-    width: 40%;
-    padding: 20px;
+    height: 70%;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10%;
+    border: 1px solid var(--twitter-color) !important;
+    border-radius: 30px;
 }

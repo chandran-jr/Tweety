@@ -13,8 +13,6 @@ function Widgets() {
 
         <div className="widgets__widgetContainer">
             <h2>What's Happening?</h2>
-          
-
         </div>
 
         </div>
