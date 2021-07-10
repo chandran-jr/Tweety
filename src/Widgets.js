@@ -13,6 +13,32 @@ function Widgets() {
 
         <div className="widgets__widgetContainer">
             <h2>What's Happening?</h2>
+
+            <div className="widgets__widgetNews">
+                <h4>Technology . Huge News</h4>
+                <h3>Chandran creates Tweety</h3>
+                <p>Does absolutely nothing..again!!</p>
+            </div>
+            <div className="widgets__widgetNews">
+                <h4>Sports . Cricket</h4>
+                <h3>NZ are WT Champs</h3>
+                <p>They beat India in a rain spoiled match</p>
+            </div>
+            <div className="widgets__widgetNews">
+                <h4>Technology . Huge News</h4>
+                <h3>Chandran creates Tweety</h3>
+                <p>Does absolutely nothing again!!</p>
+            </div>
+            <div className="widgets__widgetNews">
+                <h4>Technology . Huge News</h4>
+                <h3>Chandran creates Tweety</h3>
+                <p>Does absolutely nothing again!!</p>
+            </div>
+            <div className="widgets__widgetNews">
+                <h4>Technology . Huge News</h4>
+                <h3>Chandran creates Tweety</h3>
+                <p>Does absolutely nothing again!!</p>
+            </div>
         </div>
 
         </div>

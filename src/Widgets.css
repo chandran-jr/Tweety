@@ -28,7 +28,7 @@
 }
 
 .widgets__widgetContainer{
-    height: 70%;
+    height: 74%;
     width: 90%;
     margin-top: 15px;
     margin-left: 10%;
@@ -39,4 +39,34 @@
 .widgets__widgetContainer > h2 {
     padding: 15px;
     font-size: 20px;
+    border-bottom: 1px solid var(--twitter-color);
+}
+
+.widgets__widgetNews{
+    padding: 15px;
+    border-bottom: 1px solid var(--twitter-color);
+    cursor: pointer;
+}
+
+.widgets__widgetNews > h3 {
+    color: var(--twitter-color);
+}
+
+.widgets__widgetNews > p {
+    font-size: 14px;
+    color: grey;
+}
+
+.widgets__widgetNews > h4{
+    color: gray;
+    font-size: 10px;
+}
+
+.widgets__widgetNews:hover {
+    background-color: whitesmoke;
+    transition: background-color 250ms ease-in-out;
+}
+
+.widgets__widgetContainer > h2 {
+    color: var(--twitter-color);
 }
