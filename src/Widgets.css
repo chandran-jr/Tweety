@@ -1,3 +1,29 @@
 .widgets{
     flex: 0.25;
 }
+
+.widgets__input{
+    margin-left: 10%;
+    margin-top: 5px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    border: 1px solid var(--twitter-color);
+}
+
+.widgets__inputBox{
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.widgets__searchIcon {
+    color: #0F1419 !important;
+    margin-top: 11.5px !important;
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+}
+
+.MuiSvgIcon-root {
+    color: var(--twitter-color) !important;
+}
