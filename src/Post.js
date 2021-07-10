@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {forwardRef} from 'react';
 import './Post.css';
 import {Avatar} from '@material-ui/core';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
@@ -8,7 +8,7 @@ import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded'
 import PublishIcon from '@material-ui/icons/Publish';
 import AssessmentOutlinedIcon from '@material-ui/icons/AssessmentOutlined';
 
-function Post({displayName,userName,verified,text,avatar}) {
+const Post = forwardRef(({displayName,userName,verified,text,avatar}) => {
     return (
         <div className="post">
 
@@ -40,6 +40,6 @@ function Post({displayName,userName,verified,text,avatar}) {
             </div>
         </div>
     )
-}
+})
 
 export default Post
