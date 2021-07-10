@@ -8,9 +8,9 @@ import FavoriteBorderRoundedIcon from '@material-ui/icons/FavoriteBorderRounded'
 import PublishIcon from '@material-ui/icons/Publish';
 import AssessmentOutlinedIcon from '@material-ui/icons/AssessmentOutlined';
 
-const Post = forwardRef(({displayName,userName,verified,text,avatar}) => {
+const Post = forwardRef(({displayName,userName,verified,text,avatar}, ref) => {
     return (
-        <div className="post">
+        <div className="post" ref={ref}>
 
             <div className="post__avatar">
                 <Avatar src={avatar}/>

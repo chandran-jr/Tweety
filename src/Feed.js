@@ -4,6 +4,7 @@ import TweetBox from './TweetBox';
 import StarBorderOutlinedIcon from '@material-ui/icons/StarBorderOutlined';
 import Post from './Post';
 import db from './firebase';
+import FlipMove from 'react-flip-move';
 
 function Feed() {
 
@@ -32,8 +33,10 @@ function Feed() {
             
             </div>
 
+        <FlipMove>
             {posts.map(({displayName,userName,verified,text,avatar}) => (
                 <Post
+                    key={text}
                     displayName={displayName}
                     userName={userName}
                     verified={verified}
@@ -41,6 +44,7 @@ function Feed() {
                     avatar={avatar}
                 />
             ))}
+            </FlipMove>
 
         </div>
     )
