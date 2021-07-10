@@ -22,9 +22,11 @@ function TweetBox() {
                     <PollOutlinedIcon className="tweetBox__icon"/>
                     <SentimentSatisfiedOutlinedIcon className="tweetBox__icon"/>
                     <EventOutlinedIcon className="tweetBox__icon"/>
+
                     <div className="tweetBox__ButtonDiv"> 
                     <Button className="tweetBox__Button">Tweet</Button>
                     </div>   
+                    
                 </div>
             </form>
         </div>
