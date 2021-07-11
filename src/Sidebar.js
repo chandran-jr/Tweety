@@ -18,7 +18,7 @@ function Sidebar() {
     return (
         <div className="sidebar">
 
-            <TwitterIcon className="sidebar__twitterIcon" />
+         <a href="https://tweety-e5e48.web.app/" ><TwitterIcon className="sidebar__twitterIcon" /> </a>
 
             <SidebarOption active Icon={HomeRoundedIcon} title="Home"/>
             <SidebarOption Icon={SearchIcon} title="Explore"/>
