@@ -1,7 +1,7 @@
 
 ## Tweety
 
-<img src="twitter.PNG">
+<img src="tweety.PNG">
 
 ### `npm start`
 
