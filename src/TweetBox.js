@@ -18,9 +18,13 @@ function TweetBox() {
 
     const sendTweet = (e) => {
         e.preventDefault();
+        if(tweet === "" || user ==="" || name === "") {
+            alert("Please enter all the fields");    
+        }
+        else {
         db.collection('posts').add({
             displayName: name,
-            userName: user,
+            userName: "@"+user,
             verified: false,
             text: tweet,
             avatar: "https://i.pinimg.com/originals/11/05/0c/11050c5daab38e515f788abbf474e795.jpg",
@@ -29,7 +33,7 @@ function TweetBox() {
         setTweet("");
         setName("");
         setUser("");
-    }
+    }}
 
     return (
         <div className="tweetBox">
